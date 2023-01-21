@@ -1,0 +1,172 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lato";
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+    width:1170px;
+    margin:0 auto;
+}
+
+
+header {
+  background-color: #2e3332;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 0;
+  letter-spacing: 10px;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+.top-wrapper {
+    padding:180px 0 100px 0;
+    color:#2e3332;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 160px;
+    letter-spacing: 10px;
+
+}
+.top-wrapper h1 span{
+    font-size: 160px;
+    letter-spacing: 10px;
+    color:rgb(236, 45, 31);
+}
+
+.top-wrapper h3 {
+    font-size: 80px;
+    font-weight: normal;
+
+}
+
+.top-wrapper img {
+    width: 300px;
+}
+
+.tentang {
+    background-color: #dee4e2;
+    padding:180px 0 100px 0;
+    text-align: center;
+    height :auto;
+}
+
+.tentang h2 {
+    font-size:30px;
+    padding :auto 30px;
+    margin-bottom:30px;
+}
+
+.tentang p {
+    font-size:20px;
+    opacity:0.8;
+
+}
+
+.pelajaran {
+    padding:100px 0 100px 0;
+    text-align: center;
+    height:500px;
+}
+
+.heading-lesson {
+  margin-bottom:35px;
+  
+}
+
+.pelajaran h2 {
+    font-size:30px;
+    opacity:0.8;
+    
+}
+
+.lesson {
+    width:33%;
+    float:left;
+    text-align: center;
+}
+
+.lesson img {
+    width:80%;
+    margin-bottom: 35px;
+}
+
+.lesson p {
+    margin-bottom :30px;
+}
+
+.pesan {
+    background-color: #dee4e2;
+    padding:180px 0 100px 0;
+    text-align: center;
+    height:300px;
+}
+
+.input-text input{
+    width:80%;
+    height:45px;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-bottom:20px;
+}
+
+.input-area input{
+    width:80%;
+    height:90px;
+    border-radius: 10px;
+    opacity: 0.7;
+    margin-bottom:20px;
+}
+
+.input-button input {
+    text-align: center;
+    width: 40%;
+    opacity:0.7;
+    border-radius: 10px;
+    height: 40px;
+    background-color: rgb(230, 200, 33);
+}
+
+footer {
+    background-color: #2e3332;
+    color: #fff;
+    height: 120px;
+  }
+
+  .footer-left {
+    font-size: 36px;
+    padding: 20px 0;
+    letter-spacing: 10px;
+  }
+
+  .footer-right a{
+    font-size:18px;
+    color:#fff;
+    text-decoration: none;
+    letter-spacing: 10px;
+  }
