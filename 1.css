@@ -1,0 +1,32 @@
+html {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width: 1170px;
+    margin:0 auto;
+}
+
+.typing  {
+    float:left;
+    padding-right: 10px;
+   
+}
+
+.lesson {
+    border-bottom: 10px;
+}
+header input {
+    float:left;
+   
+    margin-top: 15px;
+}
+
+header {
+    
+    border-style: ridge;
+    width: 100%;
+    height :300px;
+}
+
